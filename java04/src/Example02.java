@@ -6,28 +6,28 @@ public class Example02
 		int[] b = { 3, 4 };
 		int[] c = null;
 		
-		//a°¡ ÂüÁ¶ÇÏ´Â °´Ã¼(Èü ¸Þ¸ð¸®¿¡ ÀÖ´Â µ¥ÀÌÅÍ)¸¦ cµµ ÂüÁ¶ÇÏ°Ô ÇÑ´Ù.
+		//aê°€ ì°¸ì¡°í•˜ëŠ” ê°ì²´(íž™ ë©”ëª¨ë¦¬ì— ìžˆëŠ” ë°ì´í„°)ë¥¼ cë„ ì°¸ì¡°í•˜ê²Œ í•œë‹¤.
 		c = a;
 		
 		boolean f;
-		f = ( b == c );	//b¿Í c°¡ ÂüÁ¶ÇÏ´Â °´Ã¼°¡ µ¿ÀÏÇÑÁö °Ë»çÇÑ´Ù.
+		f = ( b == c );	//bì™€ cê°€ ì°¸ì¡°í•˜ëŠ” ê°ì²´ê°€ ë™ì¼í•œì§€ ê²€ì‚¬í•œë‹¤.
 		System.out.println( f );
 
-		f = ( a == c );	//a¿Í c°¡ ÂüÁ¶ÇÏ´Â °´Ã¼°¡ µ¿ÀÏÇÑÁö °Ë»çÇÑ´Ù.
+		f = ( a == c );	//aì™€ cê°€ ì°¸ì¡°í•˜ëŠ” ê°ì²´ê°€ ë™ì¼í•œì§€ ê²€ì‚¬í•œë‹¤.
 		System.out.println( f );
 		
 		
-		//¹è¿­À» µ¿ÀûÀ¸·Î ¸¸µå´Â ÄÚµå
+		//ë°°ì—´ì„ ë™ì ìœ¼ë¡œ ë§Œë“œëŠ” ì½”ë“œ
 		int[] score = null;
-		//score = { 1, 2, 3, 4 }; //ÄÄÆÄÀÏ ¿¡·¯
-		score = new int[4]; //»õ·Î¿î ¹è¿­ µ¥ÀÌÅÍ ¿µ¿ªÀ» ¸¸µç´Ù.
-		//µ¥ÀÌÅÍ¸¦ ÃÊ±âÈ­(¼³Á¤)ÇÑ´Ù.
+		//score = { 1, 2, 3, 4 }; //ì»´íŒŒì¼ ì—ëŸ¬
+		score = new int[4]; //ìƒˆë¡œìš´ ë°°ì—´ ë°ì´í„° ì˜ì—­ì„ ë§Œë“ ë‹¤.
+		//ë°ì´í„°ë¥¼ ì´ˆê¸°í™”(ì„¤ì •)í•œë‹¤.
 		score[0] = 1;
 		score[1] = 2;
 		score[2] = 3;
 		score[3] = 4;
 		
-		//»õ·Î¿î ¹è¿­ µ¥ÀÌÅÍ ¿µ¿ªÀ» ¸¸µé°í, µ¥ÀÌÅÍ¸¦ ÃÊ±âÈ­ ÇÑ´Ù.
+		//ìƒˆë¡œìš´ ë°°ì—´ ë°ì´í„° ì˜ì—­ì„ ë§Œë“¤ê³ , ë°ì´í„°ë¥¼ ì´ˆê¸°í™” í•œë‹¤.
 		score = new int[] { 1, 2, 3, 4 };
 	}
 }

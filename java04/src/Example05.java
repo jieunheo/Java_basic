@@ -11,7 +11,7 @@ public class Example05
 		
 		System.out.println( "------------------" );
 		
-		//Çâ»óµÈ for¹®
+		//í–¥ìƒëœ forë¬¸
 		for ( int item : score )
 		{
 			System.out.println( item );

@@ -1,7 +1,7 @@
 public enum TrafficLight
 {
-	//½ÅÈ£µî
-	RED_LIGHT,		//»¡°£»ö
-	GREEN_LIGHT,	//³ì»ö
-	YRLLOW_LIGHT	//ÁÖÈ²»ö
+	//ì‹ í˜¸ë“±
+	RED_LIGHT,		//ë¹¨ê°„ìƒ‰
+	GREEN_LIGHT,	//ë…¹ìƒ‰
+	YRLLOW_LIGHT	//ì£¼í™©ìƒ‰
 }

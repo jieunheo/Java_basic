@@ -2,10 +2,10 @@ public class Example01
 {
 	public static void main(String[] args) 
 	{
-		//Á¤Àû µ¥ÀÌÅÍ ¼±¾ğ
+		//ì •ì  ë°ì´í„° ì„ ì–¸
 		//int score[] = { 1, 2, 3, 4 };
 		
-		//µ¿Àû µ¥ÀÌÅÍ ¼±¾ğ
+		//ë™ì  ë°ì´í„° ì„ ì–¸
 		int score[] = null;
 		score = new int[4];
 		score[0] = 100;
@@ -13,13 +13,13 @@ public class Example01
 		score[2] = 80;
 		score[3] = 70;
 		
-		System.out.println( "score ¹è¿­ ¿ø¼Ò °³¼ö: " + score.length );
+		System.out.println( "score ë°°ì—´ ì›ì†Œ ê°œìˆ˜: " + score.length );
 		for ( int i = 0; i < score.length; i++ )
 		{
 			System.out.println( score[i] );
 		}
 		
-		//myScore¿¡ score°¡ ÂüÁ¶ÇÏ´Â °´Ã¼¸¦ ÁöÁ¤ÇÏ´Â ÄÚµå
+		//myScoreì— scoreê°€ ì°¸ì¡°í•˜ëŠ” ê°ì²´ë¥¼ ì§€ì •í•˜ëŠ” ì½”ë“œ
 		int myScore[] = null;
 		myScore = score;
 		score[0] = 99;

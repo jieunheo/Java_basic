@@ -2,10 +2,10 @@ public class Example04
 {
 	public static void main(String[] args) 
 	{
-		//1Â÷¿ø ¹è¿­
+		//1ì°¨ì› ë°°ì—´
 		int[] score = { 10, 20, 30 };
 		
-		//2Â÷¿ø ¹è¿­
+		//2ì°¨ì› ë°°ì—´
 		int[][] data =
 			{
 					{ 11, 22, 33 },

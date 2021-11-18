@@ -7,13 +7,13 @@ public class Example06
 		switch ( tr )
 		{
 			case RED_LIGHT:
-				System.out.println( "»¡°£»ö" );
+				System.out.println( "Â»Â¡Â°Â£Â»Ã¶" );
 				break;
 			case GREEN_LIGHT:
-				System.out.println( "³ì»ö" );
+				System.out.println( "Â³Ã¬Â»Ã¶" );
 				break;
 			case YRLLOW_LIGHT: 
-				System.out.println( "ÁÖÈ²»ö" );
+				System.out.println( "ÃÃ–ÃˆÂ²Â»Ã¶" );
 				break;
 		}
 	}
