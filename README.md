@@ -20,3 +20,12 @@
   Example09.java - continue  
   Example10.java - 업다운 게임  
   ...  
+
+## java04  
+  Example01.java - 배열  
+  ...  
+  Example03.java - String  
+  Example04.java - 2차원 배열  
+  Example05.java - 향상된 for문  
+  Example06.java - enum  
+  TrafficLight.java - enum  
