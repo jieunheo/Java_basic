@@ -29,3 +29,14 @@
   Example05.java - 향상된 for문  
   Example06.java - enum  
   TrafficLight.java - enum  
+
+## java05  
+  Example01.java - 배열로 이름,성적  
+  ...  
+  Example04.java - Student 객체 사용  
+  Example05.java - Person 객체 사용  
+  Example06.java - Saram 객체 사용  
+  Person.java - Person 객체  
+  Saram.java - Saram 객체  
+  score.java - score 객체  
+  student.java - student 객체  
